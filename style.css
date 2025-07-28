@@ -28,11 +28,17 @@ button {
     background-color: white;
 }
 
+#hide {
+    background-color: black;
+    color: white;
+}
+
 div {
     width: 500px;
     height: 500px;
     border: 3px solid black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
